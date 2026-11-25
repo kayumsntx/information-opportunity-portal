@@ -96,3 +96,8 @@ prisma/*.db-journal
 # Generated Files
 # ===================================
 *.generated.ts
+**/src/generated/
+
+# Uploaded files
+apps/api/uploads/*
+!apps/api/uploads/.gitkeep
